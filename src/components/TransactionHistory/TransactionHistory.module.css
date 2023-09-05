@@ -1,2 +1,29 @@
 @import-normalize;
 
+.transactionHistory {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: rgba(255, 255, 255, 0.837);
+
+}
+.line {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(186, 30, 210, 0.622);
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.value {
+width: 200px;
+height: 20px;
+text-align: left;
+margin-bottom: 20px;
+}
