@@ -1,0 +1,30 @@
+@import-normalize;
+
+.item {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    background-color: #91a7ff96;
+    border: 1px solid #91a7ff96;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.online {
+    background-color: greenyellow;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: block;
+}
+.ofline {
+    background-color: gray;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: block;
+}

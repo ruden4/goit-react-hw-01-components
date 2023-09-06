@@ -1,4 +1,5 @@
 @import-normalize;
+
 .statistics {
     display: flex;
     justify-content: center;

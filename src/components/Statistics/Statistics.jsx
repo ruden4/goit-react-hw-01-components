@@ -1,5 +1,7 @@
 import css from './Statistics.module.css';
+
 import { getRandomHexColor } from 'utilit/randomColor';
+
 export const Statistics = ({title, stats}) => {
     return (
         <section className={css.statistics}>
